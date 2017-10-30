@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: configserver
+  application:
+    name: eureka-server
